@@ -101,5 +101,40 @@ int main()
     // 4,5,6 => Quy 2 
     // 7,8,9 => Quy 3 
     // 10,11,12 => Quy 4 
+     int menu;
+    printf("Nhap menu:");
+    scanf("%d",&menu);
+    switch(menu){
+        case 1:{
+            // tinh tong 
+            int soThuNhat;
+            printf("Nhap so 1:");
+            scanf("%d",&soThuNhat);
+            int soThuHai;
+            printf("Nhap so 2:");
+            scanf("%d",&soThuHai);
+            int sum = soThuNhat + soThuHai;
+            printf("Sum = %d\n",sum);
+            break;
+        }
+        case 2:{
+             int soThuNhat;
+            printf("Nhap so 1:");
+            scanf("%d",&soThuNhat);
+            int soThuHai;
+            printf("Nhap so 2:");
+            scanf("%d",&soThuHai);
+            int sum = soThuNhat * soThuHai;
+            printf("Sum = %d\n",sum);
+            break;
+        }
+        case 0:{
+            break; // thoat chuong trinh 
+        }
+        default:{
+            printf("Chuc nang khong ton tai");
+            break;
+        }
+    }
     return 0;
 }
