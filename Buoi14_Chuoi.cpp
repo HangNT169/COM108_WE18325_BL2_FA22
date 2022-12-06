@@ -33,6 +33,30 @@ int main()
     // }
     // printf("Tong la: %d", tong);
     
+  // Nhập vào 1 mảng. Tìm xem mảng có số nguyên dương hay không?
+//     int size;
+//     int mang[100];
+//     printf("Nhap size:");
+//     scanf("%d",&size);
+    
+//     printf("Nhap cac phan tu trong mang:\n");
+//     for(int i = 0 ;i <size;i++){
+//         scanf("%d",&mang[i]);
+//     }
+//     // Danh dau 
+//     int flag = 1;
+//     // Neu flag = 1 => Mang khong co so nguyen duong 
+//     // Flag = 0 => Mang chua so nguyen duong 
+//     for(int i = 0;i<size;i++){
+//         if(mang[i] > 0){
+//             flag = 0;
+//         }
+//     }
+//     if(flag == 1){
+//         printf("Khong co so nguyen duong");
+//     }else{
+//         printf("Mang co so nguyen duong");
+//     }
     // Char 
     // char name;
     // printf("Nhap chuoi:");
